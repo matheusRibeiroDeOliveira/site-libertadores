@@ -1,0 +1,54 @@
+body {
+    /* cor do fundo */
+    background-color: #CCC;
+    /* retirar a margem do body */
+    margin: 0;
+    /* mudar a fonte do site */
+    font-family: Arial, Verdana;
+}
+header, footer {
+    /* largura */
+    width: 100%;
+    background-color: #FFF;
+    /* sombra - distancia esquerda direita, 
+    distancia cima - baixo
+    opacidade 
+    cor da sombra */
+    box-shadow: 0 0 20px #666;
+    /* margem interna */
+    padding: 10px;
+    box-sizing: border-box;
+}
+header nav {
+    /* jogar para direita */
+    float: right;
+}
+header nav ul {
+    /* retirar os marcadores */
+    list-style: none;
+    /* zerar margem e padding */
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    /* alinhado um ao lado do outro */
+    display: inline-block;
+    /* margem */
+    margin: 35px;
+}
+header nav ul li a {
+    color: #333;
+    /* retiro sublinhado */
+    text-decoration: none;
+    /* adicionar uma transição */
+    transition: all 0.5s;
+}
+header nav ul li a:hover {
+    color: #F00;
+    /* devolver o sublinhado */
+    text-decoration: underline;
+}
+footer p {
+    /* alinhar ao centro */
+    text-align: center;
+}
